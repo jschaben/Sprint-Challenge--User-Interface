@@ -193,6 +193,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .about-header{
@@ -230,6 +231,7 @@ footer nav a {
     background: white;
     margin: 15px 0px;
     padding: 10px 25px;
+    cursor: grab;
 }
 #click:hover{
     color: white;
