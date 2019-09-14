@@ -194,3 +194,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-header{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-box{
+    width: 390px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.about-box h2{
+    padding-top: 10px;
+}
+
+.about-box button{
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    background: white;
+    margin: 15px 0px;
+    padding: 10px 25px;
+}
+
+.about-footer{
+    padding-bottom: 30px;
+    margin: 20px 0px;
+}
