@@ -218,6 +218,11 @@ footer nav a {
     padding-top: 10px;
 }
 
+@keyframes clicky{
+    from{background: black;}
+    to{background: grey;}
+}
+
 .about-box button{
     font-size: 16px;
     border: 3px solid black;
@@ -225,6 +230,13 @@ footer nav a {
     background: white;
     margin: 15px 0px;
     padding: 10px 25px;
+}
+#click:hover{
+    color: white;
+    font-size: 115%;
+    animation-name: clicky;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
 }
 
 .about-footer{
